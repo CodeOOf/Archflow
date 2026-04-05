@@ -1,0 +1,33 @@
+# Build
+bin/
+obj/
+
+# VS / Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.env
+
+# Node (if ever used)
+node_modules/
+
+# Coverage
+coverage/
+
+# Publish
+publish/
+
+# Temp
+tmp/
+temp/

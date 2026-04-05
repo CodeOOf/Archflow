@@ -1,0 +1,11 @@
+project: hello-archflow
+
+services:
+  - id: proxy
+    kind: proxy-cluster
+    instances: 2
+
+  - id: web
+    kind: web-service
+    depends_on:
+      - proxy
